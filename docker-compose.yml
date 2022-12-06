@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    volumes:
+      - ./:/code
+    environment:
+      - FRONTEND_HOST=http://172.17.0.1:8000
+    ports:
+      - "8000:80"
