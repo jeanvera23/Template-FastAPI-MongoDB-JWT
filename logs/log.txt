@@ -1,0 +1,2 @@
+2023-09-21 18:27:46,120 [INFO]: logging from the root logger
+2023-09-21 18:27:53,982 [INFO]: logging from the root logger
