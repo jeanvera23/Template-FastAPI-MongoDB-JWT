@@ -12,3 +12,8 @@ uvicorn main:app --reload
 docker build -f Dockerfile . -t fast_api_app
 docker run -p 8000:80 -d fast_api_app 
 ```
+
+### Docker compose
+```bash
+docker compose up -d --build
+```
