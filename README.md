@@ -1,12 +1,13 @@
 # Instructions
+This is basic template which includes a FastAPI, MongoDB (ORM), Logs, Authentication / Authorisation, and Error Handling.
 
-## Development
+## Uvicorn (Development)
 ```bash
 pip install requirements
 uvicorn main:app --reload
 ```
 
-## Production
+## Docker (Production)
 ```bash
 docker build -f Dockerfile . -t fast_api_app
 docker run -p 8000:80 -d fast_api_app 
